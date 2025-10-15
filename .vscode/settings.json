@@ -1,0 +1,7 @@
+{
+	// Use the built-in HTML formatter and disable format-on-save for HTML so Biome isn't invoked for HTML files
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features",
+		"editor.formatOnSave": false
+	}
+}

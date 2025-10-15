@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"format": "npx @biomejs/biome format --write",
+		"lint": "npx @biomejs/biome lint --write",
+		"check": "npx @biomejs/biome check --write",
+		"ci": "npx @biomejs/biome ci"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.5"
+	}
+}
